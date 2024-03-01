@@ -23,13 +23,12 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    max-width: 50%;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 35px 30px;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(3, 150px);
     margin-top: 30px;
-    margin-left: 80px;
+    gap: 18% 10%;
+    padding-top: 30px;
+    margin-inline: auto;
 }
 
 img {
